@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&family=Noto+Serif+JP:wght@200..900&family=Pacifico&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  /*
+  GENERAL STYLING
+  ================================================ */
+  html {
+    @apply text-xs;
+  }
+  body {
+    @apply text-xl;
+    @apply text-stone-600;
+    @apply font-notoSans;
+    @apply tracking-widest;
+    @apply leading-relaxed;
+    @apply pt-4;
+  }
+  
+  /*
+  COMMON
+  ================================================ */
+  section {
+    @apply mt-28;
+  }
+  h1 {
+    @apply text-4xl font-normal;
+  }
+  h2 {
+    @apply text-3xl font-normal;
+    @apply mb-12;
+  }
+  h3 {
+    @apply text-2xl font-normal;
+    @apply mb-4;
+  }
+
+  /*
+  タブレット対応
+  ================================================ */
+  @screen sm {
+    body {
+      @apply text-base;
+      @apply leading-relaxed;
+      @apply pt-8;
+    }
+    section {
+      @apply mt-32;
+    }
+    h1 {
+      @apply text-5xl font-normal;
+    }
+    h2 {
+      @apply text-4xl font-normal;
+      @apply mb-16;
+    }
+    h3 {
+      @apply text-2xl font-normal;
+      @apply mb-6;
+    }
+  }
+
+  /*
+  デスクトップ対応
+  ================================================ */
+  @screen md {
+    body {
+      @apply text-2xl;
+      @apply leading-relaxed;
+      @apply pt-12;
+    }
+    section {
+      @apply mt-40;
+    }
+    h1 {
+      @apply text-6xl font-normal;
+    }
+    h2 {
+      @apply text-5xl font-normal;
+      @apply mb-20;
+    }
+    h3 {
+      @apply text-3xl font-normal;
+      @apply mb-8;
+    }
+  }
+}

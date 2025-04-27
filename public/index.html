@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bottle de Jeanne</title>
+  <!-- CSS -->
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="../css/bubble.css">
+  <!-- Font Awesome ---->
+  <script src="https://kit.fontawesome.com/3ccfc7e4b4.js" crossorigin="anonymous"></script>
+  <!-- JAVASCRIPT -->
+  <script src="../js/script.js" defer></script>
+</head>
+<body>
+  <header class="container mx-auto space-x-4 flex justify-between xl:px-24">
+    <h1 class="font-pacifico">Cosme de Jeanne</h1>
+    <nav>
+      <ul class="xl:flex xl:justify-around xl:gap-24">
+        <li class="mt-24"><a href="">ホーム</a></li>
+        <li class="mt-12"><a href="">コンセプト</a></li>
+        <li class="mt-12"><a href="">商品</a></li>
+        <li class="mt-12"><a href="">ランキング</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="fv"></section>
+
+    <section id="ui" class="relative mt-0 px-4 py-8 xl:px-24 bg-blue-500">
+      <div class="spin w-1/2 h-1/2 my-8 mx-auto mt-0 aspect-square relative">
+        <div class="absolute animate-fluid" style="width: 100%; height: 100%; content: ''; background-image: linear-gradient(80deg, #ffffff 0%, #d4f3ff 40%, #a6e8ff 80%, #e0faff 100%); top: 0; left: 0; border-radius: 50% 50% / 50% 70%"></div>
+        <h2 class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-violet-300 font-pacifico">concept</h2>
+      </div>
+      <div class="text-center">
+        <h2>Bottle de Jeanne</h2>
+        <h3>from Tokyo, Japan</h2>
+        <p class="font-notoSerif">
+          「最高峰の透明感を感じてほしい」<br>
+          最高峰の成分を使用し美白やツヤ感に<br class="sm:hidden">力を入れて開発しています。
+        </p>
+      </div>
+    </section>
+
+    <section class="container mx-auto px-4 xl:px-24">
+      <h2>LOOKBOOK</h2>
+      <div class="grid grid-cols-2 text-center gap-4 xl:grid-cols-4 xl:gap-12">
+        <div><img src="../img/bottle1.jpg" alt=""><p>イチゴ柄タンブラー</p><p>￥1,300</p></div>
+        <div><img src="../img/bottle2.jpg" alt=""><p>猫柄タンブラー</p><p>￥1,300</p></div>
+        <div><img src="../img/bottle3.jpg" alt=""><p>雪化粧タンブラー</p><p>￥1,300</p></div>
+        <div><img src="../img/bottle4.jpg" alt=""><p>うさ耳タンブラー</p><p>￥1,900</p></div>
+        <div><img src="../img/bottle5.jpg" alt=""><p>ピクニックタンブラー</p><p>￥1,300</p></div>
+        <div><img src="../img/bottle6.jpg" alt=""><p>デザイナータンブラー</p><p>￥1,500</p></div>
+        <div><img src="../img/bottle7.jpg" alt=""><p>ハチ公タンブラー</p><p>￥1,900</p></div>
+        <div><img src="../img/bottle8.jpg" alt=""><p>新イチゴ柄タンブラー</p><p>￥1,300</p></div>
+      </div>
+    </section>
+
+    <section class="container mx-auto px-4 xl:px-24">
+      <h2>今月のランキング</h2>
+      <div class="flex flex-col gap-8 text-center justify-around xl:flex-row xl:text-left">
+        <div class="flex items-center justify-around xl:flex-col">
+          <div class="w-1/2 xl:w-full">
+            <img src="../img/bottle1.jpg" alt="" class="mx-auto xl:object-cover xl:w-96 xl:h-72">
+          </div>
+          <div class="w-1/2 xl:w-full">
+            <p class="text-red-400">NEW</p>
+            <h4>イチゴ柄タンブラー</h4>
+            <span>￥1,300</span><small>税込</small>
+            <p>全１色</p>
+            <p class="border-red-500 border-2 text-red-500 inline-block p-1">３ヶ月連続１位</p>
+          </div>
+        </div>
+        <div class="flex items-center flex-row-reverse justify-around xl:flex-col">
+          <div class="w-1/2 xl:w-full">
+            <img src="../img/bottle5.jpg" alt="" class="mx-auto xl:object-cover xl:w-96 xl:h-72">
+          </div>
+          <div class="w-1/2 xl:w-full">
+            <p class="text-blue-400">SALE</p>
+            <h4>ピクニックタンブラー</h4>
+            <span>￥1,300</span><small>税込</small>
+            <p>全１色</p>
+            <p class="border-blue-500 border-2 text-blue-500 inline-block p-1">ベストセラー</p>
+          </div>
+        </div>
+        <div class="flex items-center justify-around xl:flex-col">
+          <div class="w-1/2 xl:w-full">
+            <img src="../img/bottle4.jpg" alt="" class="mx-auto xl:object-cover xl:w-96 xl:h-72">
+          </div>
+          <div class="w-1/2 xl:w-full">
+            <p class="text-red-400">NEW</p>
+            <h4>うさ耳タンブラー</h4>
+            <span>￥1,900</span><small>税込</small>
+            <p>全３色</p>
+            <p class="border-red-500 border-2 text-red-500 inline-block p-1">急上昇！</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="relative bubble-bg">
+      <img src="../img/online.png" alt="" class="w-full h-56 object-cover object-bottom -z-10 md:h-96">
+      <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-center w-full">
+        <h3 class="text-white">Online Shop</h3>
+        <p class="text-white mb-8">キャンペーン参加で全国どこでも<br class="sm:hidden">送料無料でお届けします</p>
+        <button class="py-2 px-12 bg-blue-200 text-white"><a href="#">詳細はこちら</a></button>
+      </div>
+    </section>
+
+    <section class="container mx-auto px-4 xl:px-24">
+      <h2>Information</h2>
+      <div class="xl:flex xl:items-center">
+        <div class="mb-8 xl:w-1/2">
+          <table class="w-full max-w-screen-sm mx-auto">
+            <tr>
+              <th class="p-4">住所</th>
+              <td class="p-4">東京都港区芝公園４丁目２−８</td>
+            </tr>
+            <tr>
+              <th class="p-4">電話</th>
+              <td class="p-4">03-1111-1111</td>
+            </tr>
+            <tr>
+              <th class="p-4">営業時間</th>
+              <td class="p-4">10:00〜20:00</td>
+            </tr>
+            <tr>
+              <th class="p-4">店休日</th>
+              <td class="p-4">水曜</td>
+            </tr>
+          </table>
+        </div>
+        <div class="xl:w-1/2">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3241.747358393959!2d139.7428655252495!3d35.65859568121795!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188bbd9009ec09%3A0x481a93f0d2a409dd!2z5p2x5Lqs44K_44Ov44O8!5e0!3m2!1sja!2sjp!4v1745645915913!5m2!1sja!2sjp" width="720" height="320" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="w-full"></iframe>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div class="rain relative mt-12 xl:mt-20"><p>&nbsp;</p></div>
+  <footer class="container mx-auto text-center pb-8" style="background-color: rgba(233, 240, 250, 1);">
+      <p class="font-pacifico">Bottle de Jeanne</p>
+      <nav>
+        <ul>
+          <li class="m-4"><a href="">ホーム</a></li>
+          <li class="m-4"><a href="">コンセプト</a></li>
+          <li class="m-4"><a href="">商品</a></li>
+          <li class="m-4"><a href="">ランキング</a></li>
+        </ul>
+      </nav>
+      <p><small>&copy; bottleshop,2025</small></p>
+  </footer>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+  <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/85188/raindrops.js"></script>
+</body>
+</html>
