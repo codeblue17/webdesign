@@ -9,13 +9,17 @@ module.exports = {
         pacifico: ['Pacifico','sans-serif'],
       },
       keyframes: {
-        fluid: {
-          '0%': { transform: 'rotate(0deg)' },
-          '100%': { transform: 'rotate(360deg)' },
+        gradient: {
+          '0%': { 'background-position': '0% 50%' },
+          '50%': { 'background-position': '100% 50%' },
+          '100%': { 'background-position': '0% 50%' },
         },
       },
       animation: {
-        fluid: 'fluid 6s linear infinite',
+        gradient: 'gradient 5s infinite cubic-bezier(.62, .28, .23, .99) both',
+      },
+      height: {
+        '112': '28rem',
       },
     },
   },

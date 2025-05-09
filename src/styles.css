@@ -17,7 +17,9 @@
     @apply font-notoSans;
     @apply tracking-widest;
     @apply leading-relaxed;
-    @apply pt-4;
+  }
+  * {
+    @apply transition-colors duration-200 ease-linear;
   }
   
   /*
@@ -45,7 +47,6 @@
     body {
       @apply text-base;
       @apply leading-relaxed;
-      @apply pt-8;
     }
     section {
       @apply mt-32;
@@ -70,7 +71,6 @@
     body {
       @apply text-2xl;
       @apply leading-relaxed;
-      @apply pt-12;
     }
     section {
       @apply mt-40;
