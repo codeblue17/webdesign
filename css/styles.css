@@ -1000,10 +1000,6 @@ h3{
   background-color: rgb(202 138 4 / var(--tw-bg-opacity));
 }
 
-.bg-\[url\(\'\.\.\/img\/first_view_l\.jpg\'\)\]{
-  background-image: url('../img/first_view_l.jpg');
-}
-
 .bg-cover{
   background-size: cover;
 }
